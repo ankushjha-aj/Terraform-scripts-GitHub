@@ -1,5 +1,5 @@
 module "my_rds_instance" {
-  source = "./modules/aws_RDS"
+  source = "./Modules/aws_RDS"
 
   db_instance_size = "db.t3.micro"
   db_engine        = "mysql"
